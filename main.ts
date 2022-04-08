@@ -15,6 +15,6 @@ input.onButtonPressed(Button.A, function on_button_pressed_a() {
             x += 1
             led.plot(x % 5, y % 5)
         }
-        basic.pause(1000)
+        basic.pause(3000)
     }
 })

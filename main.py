@@ -14,5 +14,5 @@ def on_button_pressed_a():
         for i in range(displej):
             x += 1
             led.plot(x%5, y%5)
-        basic.pause(1000)
+        basic.pause(3000)
 input.on_button_pressed(Button.A, on_button_pressed_a)
